@@ -1,0 +1,14 @@
+[
+  {"text": "The cricket team won the championship after a close final match.", "expected": "sports"},
+  {"text": "The football player scored two goals in the league match.", "expected": "sports"},
+  {"text": "The athlete broke the national record in the swimming race.", "expected": "sports"},
+  {"text": "A new smartphone processor improves battery efficiency.", "expected": "technology"},
+  {"text": "Engineers developed software to detect computer security attacks.", "expected": "technology"},
+  {"text": "The company released a faster laptop with an updated operating system.", "expected": "technology"},
+  {"text": "Parliament debated legislation proposed by the government.", "expected": "politics"},
+  {"text": "The election campaign focused on the policies of competing political parties.", "expected": "politics"},
+  {"text": "The minister announced a new government policy after the cabinet meeting.", "expected": "politics"},
+  {"text": "Students attended a mathematics workshop at their school.", "expected": "education"},
+  {"text": "The university revised its examination timetable for undergraduate students.", "expected": "education"},
+  {"text": "Teachers organized classroom lessons to improve reading skills.", "expected": "education"}
+]
