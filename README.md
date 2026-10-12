@@ -75,6 +75,10 @@ Unit tests use controlled test doubles to check validation and the inference con
 
 `evaluate.py` performs real inference on 12 hand-authored sentences in `examples/evaluation_set.json` and writes `examples/sample_results.json`. It calculates accuracy and macro-F1. This small, straightforward demonstration set is **not a held-out benchmark**, and its results should not be generalized to arbitrary news articles. A fair academic evaluation should use a separate, balanced collection fixed before template selection.
 
+## Recorded demonstration
+
+Real CPU inference was completed on 12 October 2026. BART-MNLI assigned the expected topic to **12/12 fixed examples (100% accuracy; macro-F1 1.00)**. [Recorded predictions](examples/sample_results.json) include all category scores and the checkpoint revision. The sentences are short, hand-authored examples, so this result is not evidence of 100% accuracy on unseen news. No fine-tuning was performed.
+
 ## Limitations
 
 - The highest score expresses preference within the supplied label set; it is not a calibrated guarantee of correctness.

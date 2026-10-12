@@ -1,0 +1,309 @@
+{
+  "scope": "12 hand-authored demonstration sentences; not a held-out benchmark",
+  "count": 12,
+  "correct": 12,
+  "accuracy": 1.0,
+  "macro_f1": 1.0,
+  "records": [
+    {
+      "text": "The cricket team won the championship after a close final match.",
+      "expected": "sports",
+      "predicted": "sports",
+      "result": {
+        "sequence": "The cricket team won the championship after a close final match.",
+        "labels": [
+          "sports",
+          "technology",
+          "education",
+          "politics"
+        ],
+        "scores": [
+          0.9778795838356018,
+          0.01308613270521164,
+          0.00532929552718997,
+          0.003704983741044998
+        ],
+        "model": "facebook/bart-large-mnli",
+        "revision": "d7645e127eaf1aefc7862fd59a17a5aa8558b8ce",
+        "hypothesis_template": "This text is about {}.",
+        "multi_label": false,
+        "inference_seconds": 1.1462
+      }
+    },
+    {
+      "text": "The football player scored two goals in the league match.",
+      "expected": "sports",
+      "predicted": "sports",
+      "result": {
+        "sequence": "The football player scored two goals in the league match.",
+        "labels": [
+          "sports",
+          "technology",
+          "education",
+          "politics"
+        ],
+        "scores": [
+          0.9799132943153381,
+          0.012501474469900131,
+          0.004375498276203871,
+          0.003209715476259589
+        ],
+        "model": "facebook/bart-large-mnli",
+        "revision": "d7645e127eaf1aefc7862fd59a17a5aa8558b8ce",
+        "hypothesis_template": "This text is about {}.",
+        "multi_label": false,
+        "inference_seconds": 1.1077
+      }
+    },
+    {
+      "text": "The athlete broke the national record in the swimming race.",
+      "expected": "sports",
+      "predicted": "sports",
+      "result": {
+        "sequence": "The athlete broke the national record in the swimming race.",
+        "labels": [
+          "sports",
+          "technology",
+          "education",
+          "politics"
+        ],
+        "scores": [
+          0.9465955495834351,
+          0.03494999185204506,
+          0.009557007811963558,
+          0.00889741349965334
+        ],
+        "model": "facebook/bart-large-mnli",
+        "revision": "d7645e127eaf1aefc7862fd59a17a5aa8558b8ce",
+        "hypothesis_template": "This text is about {}.",
+        "multi_label": false,
+        "inference_seconds": 1.1117
+      }
+    },
+    {
+      "text": "A new smartphone processor improves battery efficiency.",
+      "expected": "technology",
+      "predicted": "technology",
+      "result": {
+        "sequence": "A new smartphone processor improves battery efficiency.",
+        "labels": [
+          "technology",
+          "education",
+          "politics",
+          "sports"
+        ],
+        "scores": [
+          0.9583185315132141,
+          0.014590518549084663,
+          0.014168205671012402,
+          0.012922730296850204
+        ],
+        "model": "facebook/bart-large-mnli",
+        "revision": "d7645e127eaf1aefc7862fd59a17a5aa8558b8ce",
+        "hypothesis_template": "This text is about {}.",
+        "multi_label": false,
+        "inference_seconds": 1.0691
+      }
+    },
+    {
+      "text": "Engineers developed software to detect computer security attacks.",
+      "expected": "technology",
+      "predicted": "technology",
+      "result": {
+        "sequence": "Engineers developed software to detect computer security attacks.",
+        "labels": [
+          "technology",
+          "education",
+          "politics",
+          "sports"
+        ],
+        "scores": [
+          0.9476966261863708,
+          0.020632946863770485,
+          0.017757337540388107,
+          0.013913209550082684
+        ],
+        "model": "facebook/bart-large-mnli",
+        "revision": "d7645e127eaf1aefc7862fd59a17a5aa8558b8ce",
+        "hypothesis_template": "This text is about {}.",
+        "multi_label": false,
+        "inference_seconds": 1.1301
+      }
+    },
+    {
+      "text": "The company released a faster laptop with an updated operating system.",
+      "expected": "technology",
+      "predicted": "technology",
+      "result": {
+        "sequence": "The company released a faster laptop with an updated operating system.",
+        "labels": [
+          "technology",
+          "education",
+          "sports",
+          "politics"
+        ],
+        "scores": [
+          0.9064164161682129,
+          0.03644693270325661,
+          0.030857117846608162,
+          0.026279645040631294
+        ],
+        "model": "facebook/bart-large-mnli",
+        "revision": "d7645e127eaf1aefc7862fd59a17a5aa8558b8ce",
+        "hypothesis_template": "This text is about {}.",
+        "multi_label": false,
+        "inference_seconds": 1.1172
+      }
+    },
+    {
+      "text": "Parliament debated legislation proposed by the government.",
+      "expected": "politics",
+      "predicted": "politics",
+      "result": {
+        "sequence": "Parliament debated legislation proposed by the government.",
+        "labels": [
+          "politics",
+          "technology",
+          "sports",
+          "education"
+        ],
+        "scores": [
+          0.8679242730140686,
+          0.07191142439842224,
+          0.034782525151968,
+          0.02538173831999302
+        ],
+        "model": "facebook/bart-large-mnli",
+        "revision": "d7645e127eaf1aefc7862fd59a17a5aa8558b8ce",
+        "hypothesis_template": "This text is about {}.",
+        "multi_label": false,
+        "inference_seconds": 1.1994
+      }
+    },
+    {
+      "text": "The election campaign focused on the policies of competing political parties.",
+      "expected": "politics",
+      "predicted": "politics",
+      "result": {
+        "sequence": "The election campaign focused on the policies of competing political parties.",
+        "labels": [
+          "politics",
+          "technology",
+          "education",
+          "sports"
+        ],
+        "scores": [
+          0.9857255816459656,
+          0.006113636773079634,
+          0.004597791936248541,
+          0.0035629593767225742
+        ],
+        "model": "facebook/bart-large-mnli",
+        "revision": "d7645e127eaf1aefc7862fd59a17a5aa8558b8ce",
+        "hypothesis_template": "This text is about {}.",
+        "multi_label": false,
+        "inference_seconds": 1.128
+      }
+    },
+    {
+      "text": "The minister announced a new government policy after the cabinet meeting.",
+      "expected": "politics",
+      "predicted": "politics",
+      "result": {
+        "sequence": "The minister announced a new government policy after the cabinet meeting.",
+        "labels": [
+          "politics",
+          "technology",
+          "education",
+          "sports"
+        ],
+        "scores": [
+          0.7668576836585999,
+          0.13477645814418793,
+          0.05784887447953224,
+          0.040516987442970276
+        ],
+        "model": "facebook/bart-large-mnli",
+        "revision": "d7645e127eaf1aefc7862fd59a17a5aa8558b8ce",
+        "hypothesis_template": "This text is about {}.",
+        "multi_label": false,
+        "inference_seconds": 1.0956
+      }
+    },
+    {
+      "text": "Students attended a mathematics workshop at their school.",
+      "expected": "education",
+      "predicted": "education",
+      "result": {
+        "sequence": "Students attended a mathematics workshop at their school.",
+        "labels": [
+          "education",
+          "technology",
+          "sports",
+          "politics"
+        ],
+        "scores": [
+          0.7448853850364685,
+          0.17987018823623657,
+          0.043716222047805786,
+          0.03152823448181152
+        ],
+        "model": "facebook/bart-large-mnli",
+        "revision": "d7645e127eaf1aefc7862fd59a17a5aa8558b8ce",
+        "hypothesis_template": "This text is about {}.",
+        "multi_label": false,
+        "inference_seconds": 1.1699
+      }
+    },
+    {
+      "text": "The university revised its examination timetable for undergraduate students.",
+      "expected": "education",
+      "predicted": "education",
+      "result": {
+        "sequence": "The university revised its examination timetable for undergraduate students.",
+        "labels": [
+          "education",
+          "technology",
+          "politics",
+          "sports"
+        ],
+        "scores": [
+          0.8535107374191284,
+          0.08129549026489258,
+          0.035234060138463974,
+          0.02995971217751503
+        ],
+        "model": "facebook/bart-large-mnli",
+        "revision": "d7645e127eaf1aefc7862fd59a17a5aa8558b8ce",
+        "hypothesis_template": "This text is about {}.",
+        "multi_label": false,
+        "inference_seconds": 1.1836
+      }
+    },
+    {
+      "text": "Teachers organized classroom lessons to improve reading skills.",
+      "expected": "education",
+      "predicted": "education",
+      "result": {
+        "sequence": "Teachers organized classroom lessons to improve reading skills.",
+        "labels": [
+          "education",
+          "technology",
+          "sports",
+          "politics"
+        ],
+        "scores": [
+          0.9613803625106812,
+          0.023200010880827904,
+          0.008402090519666672,
+          0.0070175412110984325
+        ],
+        "model": "facebook/bart-large-mnli",
+        "revision": "d7645e127eaf1aefc7862fd59a17a5aa8558b8ce",
+        "hypothesis_template": "This text is about {}.",
+        "multi_label": false,
+        "inference_seconds": 1.1504
+      }
+    }
+  ]
+}
