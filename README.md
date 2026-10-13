@@ -99,6 +99,10 @@ tests/                         Unit and interface checks
 reports/project_report.pdf     Written project report
 ```
 
+## Comprehensive study report
+
+[Read the report](reports/project_report.pdf) for the topic's foundations, problem statement, design, methodology, implementation and measured demonstration results. It also compares related approaches and discusses current research, open challenges and future directions. The literature review was updated on 13 October 2026.
+
 ## References
 
 - [Yin, Hay and Roth (2019): Benchmarking Zero-shot Text Classification](https://aclanthology.org/D19-1404/)
